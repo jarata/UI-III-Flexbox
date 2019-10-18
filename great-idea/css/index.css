@@ -109,14 +109,20 @@ button {
 	padding: 5px 40px;
 	font-size: 18px;
 }
+.top-half {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0px;
+}
 .half {
-	display: inline-block;
-	margin: 40px 0px;
 	width: 438px;
 }
+.bottom-half {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0px;
+}
 .third {
-	display: inline-block;
-	margin: 40px 0px;
 	width: 290px;
 }
 #contact {
